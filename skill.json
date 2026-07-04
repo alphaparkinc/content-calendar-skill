@@ -1,0 +1,61 @@
+{
+  "name": "content-calendar-skill",
+  "version": "1.0.0",
+  "description": "Generate monthly marketing content calendars with post ideas, themes, hashtags, and channel schedules for e-commerce brands.",
+  "author": "alphaparkinc",
+  "category": "marketing",
+  "tags": [
+    "content",
+    "calendar",
+    "social-media",
+    "marketing",
+    "scheduling"
+  ],
+  "inputs": {
+    "brand_name": {
+      "type": "string",
+      "description": "Brand name."
+    },
+    "product_category": {
+      "type": "string",
+      "description": "Product category (beauty, fitness, fashion, food, tech)."
+    },
+    "channels": {
+      "type": "array",
+      "description": "Platforms to schedule for (instagram, tiktok, twitter, facebook, pinterest)."
+    },
+    "month": {
+      "type": "integer",
+      "description": "Month number (1-12)."
+    },
+    "year": {
+      "type": "integer",
+      "description": "Year."
+    },
+    "posts_per_week": {
+      "type": "integer",
+      "description": "Target posts per week per channel.",
+      "default": 3
+    }
+  },
+  "outputs": {
+    "calendar": {
+      "type": "array",
+      "description": "Day-by-day content calendar with post ideas and channels."
+    },
+    "themes": {
+      "type": "array",
+      "description": "Monthly content themes."
+    },
+    "hashtag_sets": {
+      "type": "object",
+      "description": "Hashtag sets by channel."
+    },
+    "posting_schedule": {
+      "type": "object",
+      "description": "Recommended posting times per channel."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
