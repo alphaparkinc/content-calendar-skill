@@ -1,4 +1,4 @@
-# content-calendar-skill
+# genpark-content-calendar-skill
 
 > **GenPark AI Agent Skill** -- Generate monthly marketing content calendars with post ideas, themes, hashtags, and scheduling for e-commerce brands.
 
