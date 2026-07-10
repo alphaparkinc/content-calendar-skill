@@ -1,8 +1,8 @@
 {
   "name": "content-calendar-skill",
   "version": "1.0.0",
-  "description": "Generate monthly marketing content calendars with post ideas, themes, hashtags, and channel schedules for e-commerce brands.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Generate monthly marketing content calendars with post ideas, themes, hashtags, and channel schedules for e-commerce brands.",
+  "author": "genpark",
   "category": "marketing",
   "tags": [
     "content",
